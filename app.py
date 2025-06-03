@@ -6,7 +6,7 @@ import base64
 app = Flask(__name__)
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyCbkB5-zV7XrODvkM9x0LfHhKtN61e9E_E")
+genai.configure(api_key="Your_API_Key")
 
 # Load models
 text_model = genai.GenerativeModel("gemini-pro")
